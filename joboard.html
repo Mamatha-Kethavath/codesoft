@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <style>
+        *{
+            background-color: rgb(18, 124, 190);
+            overflow-x: hidden; 
+        }
+        header>#nav1>nav>a{
+            text-decoration: none;
+            font-size: 3vh;
+            color: white;
+            display: flex;
+            gap: 90px;
+            margin-top: 50px;
+        }
+        header>#nav1{
+            display: flex;
+        }
+        #a1{
+            padding-left: 80px;
+             margin-top: 30px;
+        }
+        .a2{
+            position: relative;
+            left: 450px; 
+            display: flex;
+            gap: 50px;
+        }
+        #nav1>.a3{
+            position: relative;
+            right: -690px; 
+        }
+        #log{
+            text-decoration: none;
+            color: white;
+            font-size: 3vh;
+            padding-top: 55px;
+            /* margin-left: -390px;  */
+        }
+        #nav1>#a3{
+            position: relative;
+            right: -750px;
+            margin-top: 40px;
+            font-size: 2vh;
+            overflow: hidden;
+        }
+        button{
+            background-color: green;
+            color: white;
+            height: 50px;
+            width: 140px;
+            font-size:large;
+            border: 0px solid green;
+        }
+        #div1{
+            color: white;
+            padding-top: 290px;
+            font-size: 3vh;
+            padding-left: 190px;
+        }
+        #btn2{
+            width: 190px;
+        }
+        #div3{
+            position: relative;
+            right: -1070px;
+            top: -150px;
+        }
+        #heading{
+           font-size: 5vh;
+           margin-left: -81px;
+        }
+        h4{
+           margin-top: -8px;
+           margin-left: -81px
+        }
+        #img{
+            height: 50px;
+            width: 80px;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        #btn3{
+            background-color: green;
+            color: white;
+            height: 50px;
+            width: 140px;
+            font-size:large;
+            position: relative;
+            right: -1550px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav1">
+            <img id="img" style= "border-radius: 50%;"  height="40px" width="60px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBE1dtsU5QjREshg5COziZCatkpKRe4l1n5_IDzpreBlCjQ46mEq2TB9JkMjEcvUGuiQ&usqp=CAU" alt="">
+            <nav id="a1">
+
+            <b id="heading">Job Board <br></b>
+            <h4>Find your Dream Job</h4></nav> 
+
+            <nav class="a2">
+            <a href="./joboard.html">Home</a> 
+            <a href="./browsejob.html">Browse Job</a>
+            <a href="./pages.html">Pages</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <a class="a3" id="log" href="./login.html">Log in</a>
+        <button id="a3" onclick="window.location.href='jobboard/browsejob.html'" class="a3">Post A Job</button>
+        </nav>
+    </header>
+    <div id="div1">
+        4536+ Jobs listed <br>
+        <h1>Find your Dream Job <br>
+        </h1>
+        We provide online cash loans with quick approval that suit your term length
+        <br><br>
+        <form>
+             <input type="file" name="resume">
+           <button  id="btn2" type="submit">Upload Your Resume</button>
+      </form>
+
+        
+    </div>
+    <div id="div3">
+        <img src="./joboard.png" alt="">
+    </div>
+    <footer>
+        <form action="./joblist.html">
+    <button id="btn3">Find Job</button> </form>
+    </footer>
+</body>
+</html>
